@@ -6,6 +6,8 @@
         android:label="flutter_great_places_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyCUI1sOpa1b65cLZlva1HlfA98b-ugz5nE"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
